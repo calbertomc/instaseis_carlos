@@ -181,7 +181,7 @@ if sys.version_info[0] == 2:
 
 setup_config = dict(
     name="instaseis",
-    version=get_git_version(),
+    #version=get_git_version(),
     description=DOCSTRING[0],
     long_description="\n".join(DOCSTRING[2:]),
     author="Lion Krischer, Martin van Driel, and Simon Stähler",
