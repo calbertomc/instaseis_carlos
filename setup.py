@@ -142,7 +142,7 @@ def get_libgfortran_dir():
 src = os.path.join("instaseis", "src")
 lib = MyExtension(
     "instaseis",
-    libraries=["gfortran"],
+    libraries=["/opt/homebrew/Cellar/gcc/14.1.0_2/lib/gcc/current/libgfortran"],
     library_dirs=get_libgfortran_dir(),
     # Be careful with the order.
     sources=[
